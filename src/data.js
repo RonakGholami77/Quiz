@@ -1,38 +1,38 @@
 const quiz = [
   {
-    question: "what is the captal of Germany?",
+    question: "who is CEO of Tesla?",
     answer: [
-      { label: "New Yourk", isCorrect: false },
-      { label: "Berlin", isCorrect: true },
-      { label: "Rom", isCorrect: false },
-      { label: "Tehran", isCorrect: false },
+      { label: "Jeff Bezos", isCorrect: false },
+      { label: "Elon Musk", isCorrect: true },
+      { label: "Bill Gates", isCorrect: false },
+      { label: "Tony Stark", isCorrect: false },
     ],
   },
   {
-    question: "what is the captal of Iran?",
+    question: "what is the capital of France?",
     answer: [
       { label: "New Yourk", isCorrect: false },
       { label: "Berlin", isCorrect: false },
       { label: "Rom", isCorrect: false },
-      { label: "Tehran", isCorrect: true },
+      { label: "Paris", isCorrect: true },
     ],
   },
   {
-    question: "what is the captal of Italy?",
+    question: "The iPhone was created by which company?",
     answer: [
-      { label: "New Yourk", isCorrect: false },
-      { label: "Berlin", isCorrect: false },
-      { label: "Rom", isCorrect: true },
-      { label: "Tehran", isCorrect: false },
+      { label: "Apple", isCorrect: false },
+      { label: "Intel", isCorrect: false },
+      { label: "Amazon", isCorrect: true },
+      { label: "Microsoft", isCorrect: false },
     ],
   },
   {
-    question: "what is the captal of USA?",
+    question: "How many Harry Potter books are there?",
     answer: [
-      { label: "New Yourk", isCorrect: true },
-      { label: "Berlin", isCorrect: false },
-      { label: "Rom", isCorrect: false },
-      { label: "Tehran", isCorrect: false },
+      { label: "1", isCorrect: true },
+      { label: "4", isCorrect: false },
+      { label: "6", isCorrect: false },
+      { label: "7", isCorrect: false },
     ],
   },
 ];
