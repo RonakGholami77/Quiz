@@ -1,3 +1,5 @@
+# Quiz-app
+
 This is my first react project.
 I used an array of data for rendering different context of an component.
 
