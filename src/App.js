@@ -40,7 +40,10 @@ function App() {
             </div>
           </>
         ) : (
-          <p className="result">you got {corse} from 4</p>
+          <div className="result">
+            <p>you got {corse} from 4</p>
+            <button>Print</button>
+          </div>
         )}
       </div>
     </div>
