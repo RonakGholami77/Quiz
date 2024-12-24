@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import data from "./data";
+import { Button } from "react-bootstrap";
 
 function App() {
   const [corse, setCorse] = useState(0);
@@ -29,12 +31,13 @@ function App() {
             <div className="answers">
               {finalData.answer.map((answerItem, index) => {
                 return (
-                  <button
+                  <Button
+                    variant="info"
                     key={index}
                     onClick={() => pickAnswer(answerItem.isCorrect)}
                   >
                     {answerItem.label}
-                  </button>
+                  </Button>
                 );
               })}
             </div>
@@ -42,7 +45,7 @@ function App() {
         ) : (
           <div className="result">
             <p>you got {corse} from 4</p>
-            <button>Print</button>
+            <Button variant="success">Print</Button>
           </div>
         )}
       </div>
